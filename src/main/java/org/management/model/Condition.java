@@ -1,0 +1,27 @@
+package org.management.model;
+
+public enum Condition {
+    NEW,
+    LIKE_NEW,
+    USED_GOOD,
+    USED_FAIR,
+    DAMAGED,
+    REFURBISHED,
+    OUT_OF_ORDER,
+    UNDER_REPAIR,
+    UNDER_DIAGNOSIS,
+    FAULTY,
+    POWER_ISSUES,
+    SOFTWARE_ISSUES,
+    HARDWARE_ISSUES,
+    UPGRADE_REQUIRED,
+    UNSUPPORTED,
+    OBSOLETE,
+    RETIRED,
+    DECOMMISSIONED,
+    RECYCLED,
+    IN_STORAGE,
+    LOST,
+    STOLEN,
+    EXPIRED_WARRANTY
+}
